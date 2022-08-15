@@ -1,0 +1,26 @@
+I"G<p>Welcome! This guide will teach you how to get started with Python and <a href="https://materialsproject.org/api">The Materials Project API</a>. The Materials Project is a powerful database providing access to over 140,000 unique materials. These materials along with a plethora of their properties were calculated <em>ab-initio</em>, or from first principles. Many of these calculations are driven by high-throughput density-functional theory (DFT). Given only a materials crystal structure, DFT can calculate a variety of different materials properties. By the end of this guide you’ll have learned to (1) run Python scripts, (2) connect to the Materials Project API, and (3) plot in <a href="https://matplotlib.org/">matplotlib</a>. This will be done by creating what we like to call “The Volcano Plot” from the paper <a href="https://www.nature.com/articles/s41563-019-0396-2">A map of the inorganic ternary metal nitrides</a>, by Wenhao Sun et al.</p>
+
+<p><img src="/assets/img/blog/volcano_plot_src.png" alt="Volcano Plot" class="lead" width="1059" height="686" loading="lazy" /></p>
+
+<p class="figcaption">The Volcano plot.</p>
+
+<h2 id="getting-started-with-python">Getting started with Python</h2>
+
+<p>There are many different guides online for getting started with Python. This guide will use <a href="https://www.anaconda.com/">Anaconda</a> for managing Python environments and <a href="https://code.visualstudio.com/">Visual Studio Code</a> as an intergrated development environment (IDE).</p>
+
+<h3 id="1-setting-up-a-conda-environment">1. Setting up a conda environment</h3>
+
+<p>Download and install <a href="https://www.anaconda.com/">Anaconda</a>. Follow the installation instructions for your OS. Open a new terminal and create a new environment using the <code class="language-plaintext highlighter-rouge">conda create --name myenv</code> command. Replace <code class="language-plaintext highlighter-rouge">myenv</code> with your desired environment name. Now to navigate to your new environment use <code class="language-plaintext highlighter-rouge">conda activate myenv</code> and to naviagate away use <code class="language-plaintext highlighter-rouge">conda deactivate myenv</code>. Now your ready to use Python! Simply navigate to your new environment and type <code class="language-plaintext highlighter-rouge">python</code> to enter the interactive interpreter.</p>
+
+<h3 id="2-setting-up-visual-studo-code-vscode">2. Setting up Visual Studo Code (VSCode)</h3>
+
+<p>Download and install <a href="https://code.visualstudio.com/">Visual Studo Code</a>. Follow the installation instructions for your OS. VSCode is a lightweight IDE used for a variety of langauges. Once installed open VSCode and navigate to the “Extensions” tab. Search the marketplace for the “Python” extension and install. Once installed VSCode will be able to recognize Python, giving you meaningful feedback from the IDE when writing your code.</p>
+
+<p>Now locate the “New File” option in VSCode to create a new file. Then save it as a <code class="language-plaintext highlighter-rouge">.py</code> file to tell VSCode that this file is a python script. Now in VSCode open a “New Terminal” using the toolbar. From here you should have opened a new interactive shell within VSCode. Now active your conda environment and type <code class="language-plaintext highlighter-rouge">python filename.py</code> to run your script (make sure your in the same directory as your saved python file).</p>
+
+<p><img src="/assets/img/blog/vscode_python_good.png" alt="Volcano Plot" class="lead" width="621" height="285" loading="lazy" /></p>
+
+<p class="figcaption">Getting Python setup in VSCode.</p>
+
+<p>At this point it’s also a good idea to open the Command Palette to tell VSCode (and Pylance) which Python interpreter to point to. This will allow VSCode to properly identify which packages you have installed and which you do not. Use <span style="color:blue"><code class="language-plaintext highlighter-rouge">&amp;#8679;&amp;#8984;P</code></span> (mac) or <span style="color:blue"><code class="language-plaintext highlighter-rouge">Ctrl+Shift+P</code></span></p>
+:ET

@@ -1,0 +1,54 @@
+I"w
+
+
+
+
+
+<article id="post-example-volcano-guide" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/example/2022-08-15-volcano-guide/" class="flip-title">
+        Onboarding - The Volcano Plot
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2022-08-15T00:00:00-04:00">15 Aug 2022</time> in <a href="/example/" class="flip-title">Example</a> 
+      </span>
+      
+    </div>
+
+    
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      This guide is meant for new members of the Sun group, or anyone interested in getting started with the Materials Project API.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Welcome! This guide will teach you how to get started with Python and <a href="https://materialsproject.org/api">The Materials Project API</a>. The Materials Project is a powerful database providing access to over 140,000 unique materials. These materials along with a plethora of their properties were calculated <em>ab-initio</em>, or from first principles. Many of these calculations are driven by high-throughput density-functional theory (DFT). Given only a materials crystal structure, DFT can calculate a variety of different materials properties. By the end of this guide you’ll have learned to (1) run Python scripts, (2) connect to the Materials Project API, and (3) plot in <a href="https://matplotlib.org/">matplotlib</a>. This will be done by creating what we like to call “The Volcano Plot” from the paper, <a href="https://www.nature.com/articles/s41563-019-0396-2">“A map of the inorganic ternary metal nitrides”</a>, by Wenhao Sun et al.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/example/2022-08-15-volcano-guide/">Onboarding - The Volcano Plot</a>
+
+      </p>
+    </footer>
+  
+</article>
+:ET
