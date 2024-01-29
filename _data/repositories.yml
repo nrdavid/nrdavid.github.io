@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nrdavid
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - nrdavid/dash-fastapi
+  - potato-ocean/causal-bert-pytorch
+  - nrdavid/thermo_partials
+  - nrdavid/EECS_504_Pixel_Pioneers
