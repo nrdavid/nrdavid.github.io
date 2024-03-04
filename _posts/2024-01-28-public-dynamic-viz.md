@@ -112,7 +112,7 @@ To create a secure site that others can visit, we need to obtain Transport Layer
     - ```bash
     sudo docker stop CONTAINER_ID
     ```
-2. Clone the following repository: https://github.com/nrdavid/dash-fastapi
+2. Clone the following repository: https://github.com/nrdavid/dash-fastapi-public
 3. Change to the root user of your instance
     - ```bash
     sudo su
