@@ -147,7 +147,7 @@ To create a secure site that others can visit, we need to obtain Transport Layer
     - Note: If you receive some error saying "too many certificates issued for..." choose a different subdomain from afraid. Also you may omit the `-d` flag in the above command to receive output from Docker on the operation.
 10. Start your visualization service.
     - ```bash
-    docker compose -f docker-compose.yml up –d
+    docker compose -f docker-compose.yml up -d
     ```
     - Note. If you for some reason have any "orphaned" containers, it might be a good idea to clean those up.
 11. If you are able to navigate to both your visualization subdomain and traefik sub-subdomain, and HTTPS appears, then you're all set! Note that the actual visualization will be located at "/rsm".
