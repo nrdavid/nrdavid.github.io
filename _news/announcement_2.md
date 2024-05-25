@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nick presents graduate admissions research at the MIDAS Data Science Summit!
+title: I present graduate admissions research at the MIDAS Data Science Summit!
 date: 2023-11-13
 inline: false
 related_posts: false
