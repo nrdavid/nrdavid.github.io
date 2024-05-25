@@ -1,0 +1,7 @@
+_bibliography/*
+_includes/*
+_layouts/cv.liquid
+_news/*
+_pages/*
+_posts/*
+_projects/*
